@@ -31,4 +31,4 @@ A global dependency can only be prepared a single time and cannot be accessed be
 ```
 
 ### `PreviewProvider`
-Uncomment the `PreviewProvider` in `ContentView.swift`. Now the database should be able to read and write but the prior error still appears in the console. (Also, in my larger project, db data from `db.seed` at times fails to load. This happens non-deterministically.)
+Uncomment the `PreviewProvider` in `ContentView.swift`. Now the database should be able to read and write but the prior error still appears in the console. (Also, in my larger project, db data from `db.seed` at times fails to load. This happens non-deterministically. In practice, if it does happen, the seeded data tends to load when I reload the preview a second time.)
